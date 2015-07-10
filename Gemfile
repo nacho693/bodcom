@@ -45,3 +45,4 @@ gem 'simple_form'
 gem 'devise'
 gem 'cancan'
 gem 'paperclip'
+gem 'dotenv-rails', groups: [:development]
