@@ -3,6 +3,8 @@ class Book < ActiveRecord::Base
 	has_attached_file :image
 	has_attached_file :resource
 
+	has_many :sales
+
 validates_attachment_content_type :image, 
 content_type:  /^image\/(png|gif|jpeg)/,
 message: "Only images allowed"
